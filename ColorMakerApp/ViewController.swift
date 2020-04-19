@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var colorView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func red(_ sender: UISwitch) {
+    }
+ 
+    @IBAction func green(_ sender: UISwitch) {
+    }
+    
+    @IBAction func blue(_ sender: UISwitch) {
+    }
+    
 }
 
